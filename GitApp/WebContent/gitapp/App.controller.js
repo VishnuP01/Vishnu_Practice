@@ -18,7 +18,8 @@ sap.ui.controller("gitapp.App", {
 //
 //	},
 	onPress:function(){
-		sap.m.MessageBox.show("You have clicked on Edit button");
+		var m = new sap.m.MessageToast();
+		m.show("You have clicked on edit button");
 	}
 
 /**
